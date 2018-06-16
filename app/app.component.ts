@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+    moduleId: module.id,
     selector: 'my-app',
-    template: '<img src="https://i.imgur.com/DXRVK.jpg" alt="Allan please add details">'
+    templateUrl: 'app.component.html'
 })
 
 export class AppComponent { }
